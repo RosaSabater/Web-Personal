@@ -1,2 +1,2 @@
-# Web-Personal
-Portfolio Rosa Sabater
+# Portfolio Rosa Sabater
+Web personal con proyectos realizados.

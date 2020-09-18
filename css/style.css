@@ -1,42 +1,59 @@
 
-@font-face {
-    font-family: "Orienta";
-    src: url("css/fonts/Orienta/Orienta-Regular.ttf");
-}
-/* Top */
+@import url('https://fonts.googleapis.com/css2?family=Orienta&display=swap');
 
-@media screen and (min-width: 1024px){
-    .navbar {
-        min-height: 3.25rem;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 576px){
+
+    .photo {
+        height: 6em !important;
+    }
+    
+    .ilusPhoto{
+        height: 50% !important;
+    }
+
+    .centerText {
+        font-size: 2em !important;
+    }
+
+    .centerText1 {
+        font-size: 1em !important;
     }
 }
+
+/* Top */
+
 
 .navbar {
     width: 100%;
     height: 5rem;
+    height: fit-content;
 }
 
 .logoBox {
-    height: 100%;
     width: fit-content;
 }
 
 .logo {
-    width: 50%;
+    width: 40%;
 }
 
 .center {
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
     height: fit-content;
-    margin-top: 3em;
 }
 
 .centerText {
-    font-family: 'Orienta', Arial, sans-serif;
+    font-family: 'Orienta', sans-serif;
     font-weight: 600;
     color: #555;
     font-size: 3em;
@@ -45,23 +62,124 @@
 }
 
 .centerText1 {
-    font-family: 'Orienta', Arial, sans-serif;
+    font-family: 'Orienta', sans-serif;
     font-weight: 549;
     color:  #555;
     font-size: 1.5em;
     text-align: center;
 }
 
-.photo {
-    margin-top: 2em;
-    width: 15%;
-    min-width: 8em;
-    
-    border-radius: 70%;
+.ilusPhoto {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35em;
 }
 
+.photo {
+    position: absolute;
+    height: 50%;
+    background-color: white;
+    border: 2px solid #555;
 
+    border-radius: 40%;
+}
 
+.ilustration {
+    height: 100%;
+    width: 100%;
+}
+
+/* Cards */
+
+.backgroundColor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FA5;
+}
+
+.title1 {
+    margin: 5em 0 5em;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 40em;
+
+}
+
+.largeText {
+    font-family: 'Orienta', sans-serif;
+    font-weight: 549;
+    color:  #555;
+    font-size: 1em;
+    text-align: center;
+}
+
+.smallText {
+    font-family: 'Orienta', sans-serif;
+    font-weight: 549;
+    color:  #555;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+.smallText > h1 {
+    margin-bottom: 1em;
+}
+
+.frontend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30em;
+    width: 20em;
+
+    background-color: white;
+    border-radius: 1em;
+    border: 2px solid #555;
+    box-shadow: 5px 5px 15px 6px rgb(82, 81, 81);
+    /* transition: transform 0.6s; */
+}
+
+/* .frontend:hover{
+    transform: rotateY(180deg);
+} */
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frontIcon {
+    padding: 1em;
+}
+
+.backend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30em;
+    width: 20em;
+
+    background-color: white;
+    border-radius: 1em;
+    border: 2px solid #555;
+    box-shadow: 5px 5px 15px 6px rgb(82, 81, 81);
+}
+
+.backIcon {
+    padding: 1em;
+}
 
 
 

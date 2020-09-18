@@ -1,0 +1,80 @@
+
+@font-face {
+    font-family: "Orienta";
+    src: url("/css/fonts/Orienta/Orienta-Regular.ttf");
+}
+/* Top */
+
+@media screen and (min-width: 1024px){
+    .navbar {
+        min-height: 3.25rem;
+    }
+}
+
+.navbar {
+    width: 100%;
+    height: 5rem;
+}
+
+.logoBox {
+    height: 100%;
+    width: fit-content;
+}
+
+.logo {
+    width: 50%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    margin-top: 3em;
+}
+
+.centerText {
+    font-family: 'Orienta', Arial, sans-serif;
+    font-weight: 600;
+    color: #555;
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+}
+
+.centerText1 {
+    font-family: 'Orienta', Arial, sans-serif;
+    font-weight: 549;
+    color:  #555;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.photo {
+    margin-top: 2em;
+    width: 15%;
+    min-width: 8em;
+    
+    border-radius: 70%;
+}
+
+
+
+
+
+
+
+/* Bottom */
+
+/* .contact {
+    display: flex;
+    align-items: center;
+    height: 5em;
+}
+
+.contactLogo {
+    height: 80%;
+} */
+

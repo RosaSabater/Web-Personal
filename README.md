@@ -1,2 +1,2 @@
 # Portfolio Rosa Sabater
-Web personal con proyectos realizados.
+Web personal con información y proyectos realizados.

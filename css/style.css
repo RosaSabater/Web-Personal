@@ -16,16 +16,49 @@
         height: 50% !important;
     }
 
+    .center {
+        padding-top: 1.5em !important;
+    }
+
     .centerText {
-        font-size: 2em !important;
+        font-size: 1.5em !important;
     }
 
     .centerText1 {
         font-size: 1em !important;
     }
 
+    .portBox {
+        padding-top: 1em;
+
+    }
     .frontend, .backend {
         width: 90vw !important;
+    }
+
+    .backend {
+        margin-top: 2em;
+    }
+
+    .portText{
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 5vw !important;
+    }
+ 
+    .portText1 {
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 2vw !important;
+    }
+
+    .work {
+        width: 90vw !important;
+    }
+
+    .contact {
+        align-items: center !important;
+        column-gap: 1em !important;
     }
 }
 
